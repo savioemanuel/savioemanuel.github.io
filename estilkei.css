@@ -1,0 +1,563 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color:whitesmoke;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: black;
+    cursor: pointer;
+    font-size: 19px;
+    transition: -5s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+li:hover {
+    color: #ff99e9;
+}
+
+#logo {
+    width: 200px;
+    height: auto;
+}
+
+.banner {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display:block;
+    justify-content: center;
+    align-items:center;
+}
+
+
+.banner video {
+    position:sticky;
+    top: 0;
+    left: 0;
+    object-fit: cover; 
+    width: 2000px;
+    height: 10%;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+
+.description{
+    color: black;
+    font-size: 12px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    width: 225px;
+    height: 100%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.description .button{
+    margin: auto;
+    margin-top: 10px;
+}
+
+.button{
+    width: 200px;
+    height: 60px;
+    background-color: black;
+    color: whitesmoke;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+}
+
+.button:hover {
+    background-color:#ff99e9;
+    color:whitesmoke
+}
+
+#trailer-container {
+    width: 100%;
+    height: 700px;
+    display: block;
+    justify-content: center;
+    margin-top: 200px;
+    background-color: black;
+}
+
+.content {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 550px;
+    background-color: black;
+}
+
+.trailer{
+    width: 50%;
+    background-color: black;
+}
+
+#sinopse{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+    background-color: black;
+}
+
+.description2{
+    color: white;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    width: 70%;
+    background-color: black;
+}
+
+#trailer-container2 {
+    width: 100%;
+    height: 700px;
+    display: block;
+    justify-content: center;
+    margin-top: 200px;
+    margin-left: 30px;
+}
+
+.content2 {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 550px;
+}
+
+.trailer1{
+    width: 50%;
+}
+
+#sinopse2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.description3{
+    color: black;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    width: 70%;
+}
+
+.iphone-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.description4 {
+    color: black;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 25px;
+    margin-left: 550px;
+}
+
+.cards-content{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+    margin: auto;
+}
+
+
+.card {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: black;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.card:hover{
+    transform: scale(1.02);
+}
+
+.banner-1{
+    background-image: url('https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-15-pro-finish-select-202309-6-7inch-naturaltitanium_AV1?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1692845702205');
+}
+
+.banner-2 {
+    background-image: url('https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-15-finish-select-202309-6-7inch-black_AV1?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1692810686984');
+}
+
+.banner-3 {
+    background-image: url('https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-14-finish-select-202209-6-7inch-yellow_AV1?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1676505835395');
+}
+
+.banner-4 {
+    background-image: url('https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-14-finish-select-202209-6-1inch-blue_AV1?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1661026557923');
+}
+
+.banner-5 {
+    background-image: url('https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-13-finish-select-202207-pink_AV1?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1693063158401');
+}
+
+/* .description5 .button1{
+    margin: auto;
+    margin-top: 25px;
+} */
+.description5{
+    color: black;
+    font-size: 12px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.button1{
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: whitesmoke;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+}
+
+.button1:hover {
+    background-color:#ff99e9;
+    color:whitesmoke
+}
+
+/* .description6 .button2{
+    margin: auto;
+    margin-top: 25px;
+} */
+
+.description6{
+    color: black;
+    font-size: 12px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.button2{
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: whitesmoke;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+}
+
+.button2:hover {
+    background-color:#ff99e9;
+    color:whitesmoke
+}
+
+/* .description7 .button3{
+    margin: auto;
+    margin-top: 25px;
+} */
+
+.description7{
+    color: black;
+    font-size: 12px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.button3{
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: whitesmoke;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+}
+
+.button3:hover {
+    background-color:#ff99e9;
+    color:whitesmoke
+}
+
+/* .description8 .button4{
+    margin: auto;
+    margin-top: 25px;
+} */
+
+.description8{
+    color: black;
+    font-size: 12px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.button4{
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: whitesmoke;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+}
+
+.button4:hover {
+    background-color:#ff99e9;
+    color:whitesmoke
+}
+
+/* .description9 .button5{
+    margin: auto;
+    margin-top: 25px;
+} */
+
+.description9{
+    color: black;
+    font-size: 12px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+    
+
+.button5{
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: whitesmoke;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+}
+
+.button5:hover {
+    background-color:#ff99e9;
+    color:whitesmoke
+}
+
+footer{
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: black;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(max-width: 768px){
+    .footer-navigation{
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .banner {
+        background-position: 40%;
+    }
+
+    .banner video{
+        background-position: 40%;
+    }
+
+    #trailer-container {
+        width: 50%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+    }
+
+    .trailer{
+        width: 25%;
+        background-color: black;
+    }
+
+    #trailer-container2 {
+        width: 50%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* .content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+    } */
+
+    .trailer{
+        width: 100%;
+    }
+
+    .trailer1{
+        width: 100%;
+    }
+
+    #sinopse{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #sinopse2{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .description{
+        width: 100%;
+    }
+
+    .description2{
+        width: 100%;
+        color: black;
+        background-color: white;
+    }
+
+    .button{
+        width: 50%;
+        margin-top: 30px;
+        margin: auto;
+    }
+
+    .button1{
+        width: 50%;
+        margin-top: 30px;
+        margin: auto;
+    }
+
+    .button2{
+        width: 50%;
+        margin-top: 30px;
+        margin: auto;
+    }
+
+    .button3{
+        width: 50%;
+        margin-top: 30px;
+        margin: auto;
+    }
+
+    .button4{
+        width: 50%;
+        margin-top: 30px;
+        margin: auto;
+    }
+
+    .button5{
+        width: 50%;
+        margin-top: 30px;
+        margin: auto;
+    }
+
+    .cards-content{
+        grid-template-columns: 1fr;
+        margin-top: 150px;
+    }
+}
